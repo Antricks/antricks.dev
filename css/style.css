@@ -6,10 +6,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     hyphens: auto; 
 	text-align: justify;
-}
-
-p, code, pre {
-    font-size:12pt;
+    font-size: 2vh;
 }
 
 pre, code {
@@ -26,17 +23,17 @@ pre {
 
 h1 {
     color: #fbf1c7;
-    font-size: 24pt;
+    font-size: 2em;
 }
 
 h2 {
     color: #fbf1c7;
-    font-size: 18pt;
+    font-size: 1.7em;
 }
 
 h3 {
     color: #fbf1c7;
-    font-size: 15pt;
+    font-size: 1.8em;
 }
 
 hr {
@@ -165,4 +162,12 @@ hr {
     box-shadow: 5px 5px 5px #111;
     background-color: #282828;
     border: 5px solid #3c3836;
+}
+
+#header-penguin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+    height: 5em;
 }
