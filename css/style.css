@@ -69,14 +69,14 @@ hr {
 }
 
 .icon-h1 {
-    height: 24pt;
+    height: 2em;
     width: auto;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 .icon {
-    height: 14pt;
+    height: 1em;
     width: auto;
     margin-left: 3px;
     margin-right: 5px;
@@ -173,7 +173,7 @@ hr {
 
 @media screen and (orientation: landscape) {
     body {
-        font-size: 2.1vh;
+        font-size: 14pt;
     }
 }
 
