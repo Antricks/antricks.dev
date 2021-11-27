@@ -32,13 +32,22 @@ h2 {
 
 h3 {
     color: #fbf1c7;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 hr {
     border: 2px solid;
     color: #3c3836;
     background-color: #3c3836;
+}
+
+img.inline {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .image-small {
@@ -62,10 +71,11 @@ hr {
     border: 5px solid #3c3836;
 }
 
-.center-horizontally {
+.center {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    text-align: center;
 }
 
 .icon-h1 {
@@ -151,7 +161,7 @@ hr {
 }
 
 .card {
-    width: 75vw;
+    width: 75%;
     padding: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -174,6 +184,12 @@ hr {
 @media screen and (orientation: landscape) {
     body {
         font-size: 14pt;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .card {
+        width: 95%;
     }
 }
 
